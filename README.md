@@ -51,11 +51,3 @@ Source: [Section "8.3 ROM Messages Printing Control" of the ESP32-S3 Technical R
 The MCP2651FD CAN transceiver has a STBY pin that can be used to enable or disable the transceiver. We use GPIO4 to control this pin. The STBY pin is pulled down to ground with a 10k resistor (enabled) by default.
 
 Source: [Section "1.1 Mode Control Block" of the MCP2651FD datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf)
-
-## Screenshots
-
-![PCB layout](assets/pcb-layout.png)
-
-![3D full](assets/3d-full.png)
-
-![3D no THT](assets/3d-no-tht.png)
